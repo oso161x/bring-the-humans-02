@@ -107,6 +107,10 @@ same way, twice, in a sandbox; an exact tie goes to the earlier entry.
    let your agent write the files — the checks match your transcripts
    against the code, so pasted-in code counts against you. Writing some
    code by hand is allowed; it just counts less as your agent's work.
+   Work in two passes on purpose: write a draft, test it, then revise it
+   in a later message. The checks want to see at least one file revised
+   across two separate writes, and the second pass is where the real
+   fixes land anyway.
 5. **Bundle the transcripts.** From the kit folder:
 
    ```sh
@@ -214,6 +218,12 @@ Most rejections come from a short list, and all of them are avoidable:
 - **No secrets committed.** No provider API key, and no secret, in any
   file or commit message. The check names the file and line, never the
   value.
+- **Entry limits are real.** An account may submit at most 5 entries per
+  UTC day to one competition (fewer from some countries), and at most 20
+  entries in total per competition — and a rejected entry still counts
+  toward the day's limit. That is why step 6 above, running `check`
+  locally first, is not optional polish: it is the cheap place to catch
+  a miss.
 
 ## The referral link: how it pays
 
@@ -228,6 +238,12 @@ before it can be claimed, and only real new accounts that actually take
 part count. Fake signups, bots, self-signups, signups from one IP cluster,
 and idle accounts never count. The share a referrer earns on a referral's
 winnings is paid by the house on top, never out of the referral's reward.
+
+As of 18 November 2026, this account's Referrals tab showed the plain
+sign-up reward turned off, and the live reward as 10% of what a referral
+wins for 90 days after they sign up. Those values change, so treat this
+paragraph as a snapshot, not a promise — the Referrals tab is the source
+of truth.
 
 If this guide helped, signing up through
 [my link](https://make.fun/r/4s86eynw) (code `4s86eynw`) is a nice way to
